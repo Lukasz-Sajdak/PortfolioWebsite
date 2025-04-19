@@ -4,13 +4,13 @@ This is my personal portfolio website built using HTML, CSS, and JavaScript. It 
 
 > ⚠️ JavaScript is required for full functionality.
 
-## 🔧 Technologies Used
+## Technologies Used
 
 - HTML
 - CSS
 - JavaScript
 
-## 💡 Features
+## Features
 
 - Responsive design for desktop and mobile
 - Multi-language support (language toggle via JavaScript)
