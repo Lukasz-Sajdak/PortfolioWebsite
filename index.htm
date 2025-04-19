@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta property="og:title" content="Łukasz Sajdak" />
+  <meta property="og:description" content="Zobacz moje projekty i umiejętności – zapraszam!" />
+  <meta property="og:image" content="./images/favicon.png" />
+  <meta property="og:url" content="https://srv76685.seohost.com.pl/" />
+  <meta property="og:type" content="website" />
+
+  <title>Łukasz Sajdak</title>
+  <link rel="icon" href="./images/favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&family=Tomorrow:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style/basic_style.css">
+  <link rel="stylesheet" href="./style/header_style.css">
+  <link rel="stylesheet" href="./style/content_style.css">
+
+  <script src="./scripts/toggleLangauge.js"></script>
+  <script src="./scripts/toggleTheme.js"></script>
+  <script src="./scripts/changePage.js"></script>
+  <script src="./scripts/displaySkill.js"></script>
+  <script src="./scripts/displayTech.js"></script>
+  <script src="./scripts/displayInfo.js"></script>
+</head>
+<body>
+  </div>
+  <header id="main-header" >
+    <h1>Łukasz Sajdak</h1>
+    <p data-i18n="description" id="intro">Strona, na której się znalazłeś, prezentuje moje projekty, umiejętności i pasję do technologii. Zachęcam do odkrywania!</p>
+    <noscript>
+      <style>
+        header
+        {
+          height: fit-content;
+          padding-bottom: 10vh;
+        }
+        body
+        {
+          background-color: #f3f3f3;
+        }
+      </style>
+      <div style="background: #ffe0e0; color: #a00; padding: 1rem; text-align: center; font-weight: bold; border-radius: 1rem; margin: 1rem;">
+        <h2>Hej! 👋</h2>
+        <p>Wygląda na to, że masz wyłączony JavaScript 😬</p>
+        <p>Bez niego strona nie będzie działała poprawnie.<br> Włącz go, aby zobaczyć co przygotowałem!</p>
+        <p>Kod źródłowy możesz podejrzeć na <a href="https://github.com/Lukasz-Sajdak/Portfolio" style="color: #01cb0e; text-decoration: none; font-weight: bold;">GitHubie</a>, nie ma się czego obawiać 😊</p>
+        <p>Jeśli chcesz, sprawdź mnie także na <a href="https://linkedin.com/in/lukaszsajdak" style="color: #01cb0e; text-decoration: none; font-weight: bold;">LinkedIn</a>!</p>
+      </div>
+    </noscript>
+    <div class="nav-buttons">
+      <a onclick="changePage('home')" id="home">↩</a>
+      <a data-i18n="a1" onclick="changePage('skills')">O mnie</a>
+      <a data-i18n="a2" onclick="changePage('projects')">Projekty</a>
+      <a data-i18n="a3" onclick="changePage('contact')">Kontakt</a>
+      <div>
+        <button class="theme-toggle sun" onclick="toggleTheme()"></button>
+        <button class="lan-toggle pl" onclick="toggleLanguage()"></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="skills" class="content">
+      <h2 data-i18n="about">O mnie</h2>
+      <p data-i18n="bio" >Jestem studentem Elektroniki z pasją do AI i systemów wbudowanych. Łączę świat software'u z hardwarem w praktycznych projektach, które rozwiązują rzeczywiste problemy.</p>
+      <h2 data-i18n="skills">Umiejętoności</h2>
+      <span class="note" data-i18n="note1" ><i>Kliknij konkretną Umiejętność aby dowiedzieć się więcej</i></span>
+      <div class="skill-stack">
+        <span data-i18n="creativity" onclick="displaySkill('creativity')">Kreatywność i pomysłowość</span>
+        <span data-i18n="organization" onclick="displaySkill('organization')">Organizacja pracy</span>
+        <span data-i18n="teamwork" onclick="displaySkill('teamwork')">Umiejętność pracy w zespole</span>
+        <span data-i18n="patience" onclick="displaySkill('patience')">Cierpliwość i Opanowanie</span>
+        <span data-i18n="learning" onclick="displaySkill('learning')">Umiejętność szybkiego uczenia się</span>
+        <span data-i18n="problem-solving" onclick="displaySkill('problem-solving')">Rozwiązywanie problemów</span>
+        <span data-i18n="growth" onclick="displaySkill('growth')">Chęć ciągłego rozwoju</span>
+        <span data-i18n="analytical" onclick="displaySkill('analytical')">Zdolności analityczne</span>
+        <span data-i18n="driving" onclick="displaySkill('driving')">Prawo jazdy kat.B</span>
+        <span data-i18n="english" onclick="displaySkill('english')">Język angielski: B2</span>
+        <span data-i18n="polish" onclick="displaySkill('polish')">Język polski: ojczysty</span>
+        <span data-i18n="presentations" onclick="displaySkill('presentations')">Prowadzenie prezentacji</span>
+        <span data-i18n="computer-science" onclick="displaySkill('computer-science')">Fundamenty Informatyki</span>
+      </div>
+      <section id="creativity" class="skills-content">
+        <p data-i18n="creativity_">Potrafię patrzeć na problemy z różnych perspektyw, co pozwala mi wymyślać niekonwencjonalne rozwiązania. Moje pomysły często wykraczają poza utarte schematy, co pomaga mi w tworzeniu unikalnych koncepcji.</p>
+      </section>
+      <section id="organization" class="skills-content">
+        <p data-i18n="organization_">Planowanie dnia i wyznaczanie priorytetów to dla mnie klucz do efektywności. Określanie priorytetów pomaga mi lepiej organizować czas, co pozwala pracować bardziej precyzyjnie i skutecznie, osiągając założone cele.</p>
+      </section>
+      <section id="teamwork" class="skills-content">
+        <p data-i18n="teamwork_">Podczas pracy nad projektami zespołowymi, nauczyłem się efektywnie komunikować i dzielić obowiązki. Dobrze czuję się w roli osoby, która potrafi słuchać, ale też sprawdzam się jako lider zespołu.</p>
+      </section>
+      <section id="patience" class="skills-content">
+        <p data-i18n="patience_">Cierpliwość przejawia się u mnie długotrwałym dążeniem do celu, nawet gdy napotykam na trudności. Opanowanie natomiast pozwala mi zachować spokój w stresujących sytuacjach, podejmować racjonalne decyzje i efektywnie rozwiązywać problemy.</p>
+      </section>
+      <section id="learning" class="skills-content">
+        <p data-i18n="learning_">Planowanie nauki i naturalna ciekawość do nowych rzeczy pozwalają mi szybko przyswajać nieznane zagadnienia. Stawiam na praktykę, ponieważ uważam, że najlepiej uczę się przez bezpośrednie zastosowanie zdobytej wiedzy w rzeczywistych projektach.</p>
+      </section>
+      <section id="problem-solving" class="skills-content">
+        <p data-i18n="problem-solving_">Podchodzę do problemów z analitycznym i kreatywnym podejściem, szukając najskuteczniejszych rozwiązań. Analizuję sytuację, testuję różne podejścia i dążę do znalezienia optymalnych rozwiązań, które najlepiej odpowiadają na konkretne wyzwania.</p>
+      </section>
+      <section id="growth" class="skills-content">
+        <p data-i18n="growth_">Jestem zawsze gotów do nauki i rozwoju, nieustannie poszukując nowych możliwości, aby poszerzać swoje umiejętności. Dzięki tej postawie jestem w stanie szybko adaptować się do nowych wyzwań, nie boję się wychodzić poza swoją strefę komfortu, co pozwala mi na ciągłe doskonalenie i osiąganie lepszych wyników.</p>
+      </section>
+      <section id="analytical" class="skills-content">
+        <p data-i18n="analytical_">Potrafię skutecznie analizować dane i wyciągać z nich istotne wnioski, co pomaga mi w podejmowaniu trafnych decyzji. Dzięki tej umiejętności jestem w stanie dostrzegać wzorce i zależności, które umożliwiają mi skuteczne rozwiązywanie problemów oraz usprawnianie działań w złożonych projektach.</p>
+      </section>
+      <section id="driving" class="skills-content">
+        <p data-i18n="driving_">Posiadam prawo jazdy kat. B, co daje mi mobilność i niezależność w codziennym życiu oraz umożliwia dojazdy do pracy, spotkań biznesowych i projektów terenowych.</p>
+      </section>
+      <section id="english" class="skills-content">
+        <p data-i18n="english_">Posługuję się językiem angielskim na poziomie B2, co pozwala mi swobodnie czytać dokumentację techniczną, uczestniczyć w międzynarodowych kursach online i komunikować się w środowisku pracy.</p>
+      </section>
+      <section id="polish" class="skills-content">
+        <p data-i18n="polish_">Urodziłem i wychowałem się w Polsce, język polski jest dla mnie językiem ojczystym.</p>
+      </section>
+      <section id="presentations" class="skills-content">
+        <p data-i18n="presentations_">Podczas studiów prowadziłem prezentacje projektów, co pozwoliło mi rozwinąć umiejętności komunikowania skomplikowanych zagadnień technicznych. Nauczyłem się efektywnie przygotowywać i przedstawiać prezentacje, a także odpowiadać na pytania słuchaczy.</p>
+      </section>
+      <section id="computer-science" class="skills-content">
+        <p data-i18n="computer-science_">Jako technik informatyk nauczyłem się podstaw programowania, zarządzania systemami operacyjnymi, konfiguracji sprzętu komputerowego oraz administrowania sieciami. Zdobyłem także umiejętności z zakresu zarządzania bazami danych, pracy z systemami Linux oraz tworzenia dokumentacji technicznej.</p>
+      </section>
+      <span id="jump_here"></span>
+
+      <h2 data-i18n="techstack">Technologie</h2>
+      <span class="note" data-i18n="note2" ><i>Kliknij konkretną Technologie aby dowiedzieć się więcej</i></span>
+      <div class="tech-stack">
+        <span onclick="displayTech('python')">Python</span>
+        <span onclick="displayTech('webdev')">WebDev</span>
+        <span onclick="displayTech('windows')">Windows</span>
+        <span onclick="displayTech('linux')">Linux</span>
+        <span data-i18n="networking" onclick="displayTech('networking')">Sieci komputerowe</span>
+        <span onclick="displayTech('ai')">AI</span>
+        <span onclick="displayTech('c')">C</span>
+        <span onclick="displayTech('cpp')">C++</span>
+        <span onclick="displayTech('csharp')">C<span style="all: unset; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">#</span></span>
+        <span onclick="displayTech('sql')">SQL</span>
+        <span onclick="displayTech('matlab')">MATLAB</span>
+        <span onclick="displayTech('verilog')">Verilog</span>
+        <span onclick="displayTech('git')">Git</span>
+        <span onclick="displayTech('altium_kicad')">Altium / KiCad</span>
+        <span onclick="displayTech('cadence')">Cadence</span>
+        <span onclick="displayTech('ltspice')">LTSpice</span>
+        <span data-i18n="embedded" onclick="displayTech('embedded')" >Systemy Wbudowane</span>
+      </div>
+      <section id="python" class="skills-content">
+        <p data-i18n="python_">Wiedzę z Pythona zdobyłem głównie podczas studiów, uczestnicząc w zajęciach z programowania oraz analizowania danych.</p>
+        <p data-i18n="projects_list">Projekty:</p>
+        <ul>
+          <li data-i18n="ML_pricing">Algorytm ML do przewidywania ceny mieszkania</li>
+          <li data-i18n="typing_app">Aplikacja do nauki szybkiego pisania na klawiaturze</li>
+          <li data-i18n="tictactoe">Kółko i krzyżyk</li>
+        </ul>
+        <span class="note" data-i18n="note3"><i>Zapraszam do sekcji "Projekty"</i></span>  
+      </section>
+      <section id="webdev" class="skills-content">
+        <p data-i18n="web_">Wiedzę z zakresu Web Developmentu zdobyłem głównie w technikum, gdzie uczyłem się podstaw tworzenia stron internetowych. Umiejętności te rozwijałem samodzielnie, a ich praktyczną prezentacją jest niniejsza strona internetowa.</p>
+      </section>
+      <section id="linux" class="skills-content">
+        <p data-i18n="linux_">Wiedzę z zakresu systemu Linux zdobywałem zarówno w technikum, m.in. podczas zajęć z konfiguracji serwerów (Linux Server), jak i na studiach, gdzie pracowałem w środowiskach opartych na Linuksie.</p>
+      </section>
+      <section id="windows" class="skills-content">
+        <p data-i18n="windows_">Systemu Windows używam na co dzień jako głównego środowiska pracy. Dodatkowo, w technikum zdobywałem doświadczenie z jego wersją serwerową, ucząc się konfiguracji i zarządzania usługami Windows Server.</p>
+      </section>
+      <section id="ai" class="skills-content">
+        <p data-i18n="ai_">Wiedzę z zakresu AI zdobywam samodzielnie, głównie korzystając z materiałów dostępnych w internecie, uczestrniczyłem również w kilku warsztatach.</p>
+        <p data-i18n="courses_workshops">Kursy i warsztaty:</p>
+        <ul>
+          <li data-i18n="basic_ai">Podstawy sztucznej inteligencji</li>
+          <li data-i18n="intro_to_ai_ml">Wprowadzenie do AI i ML</li>
+          <li data-i18n="interpretability_nn">Interpretowalność głębokich sieci neuronowych</li>
+        </ul>
+        <p data-i18n="projects_list">Projekty:</p>
+        <ul>
+          <li data-i18n="ML_pricing">Algorytm ML do przewidywania ceny mieszkania</li>
+        </ul>
+        <span class="note" data-i18n="note3"><i>Zapraszam do sekcji "Projekty"</i></span>  
+      </section>
+      <section id="networking" class="skills-content">
+        <p data-i18n="networking_">Sieci komputerowe poznałem w technikum i na studiach, ucząc się m.in. konfiguracji sieci, adresacji IP i działania protokołów komunikacyjnych.</p>
+      </section>
+      <section id="c" class="skills-content">
+        <p data-i18n="c_">Wiedzę z zakresu języka C zdobyłem głównie podczas studiów, gdzie uczestniczyłem w zajęciach związanych z programowaniem i algorytmami.</p>
+        <p data-i18n="projects_list">Projekty:</p>
+        <ul>
+          <li data-i18n="alarm_project">Alarm</li>
+        </ul>
+        <span class="note" data-i18n="note3"><i>Zapraszam do sekcji "Projekty"</i></span>  
+      </section>
+      <section id="cpp" class="skills-content">
+        <p data-i18n="cpp_">Wiedzę z zakresu języka C++ zdobyłem głównie podczas studiów, gdzie uczestniczyłem w zajęciach związanych z programowaniem i algorytmami.</p>
+        <p data-i18n="projects_list">Projekty:</p>
+        <ul>
+          <li data-i18n="obstacle_avoiding_vehicle">Pojazd omijający przeszkody</li>
+          <li data-i18n="yellow_cards_app">Aplikacja Yellow-cards</li>
+          <li data-i18n="todo_list_app">Aplikacja TO-DO List</li>
+        </ul>
+        <span class="note" data-i18n="note3"><i>Zapraszam do sekcji "Projekty"</i></span>  
+      </section>
+      <section id="csharp" class="skills-content">
+        <p data-i18n="csharp_">Wiedzę z zakresu C# zdobyłem głównie podczas zajęć z programowania obiektowego (OOP) na studiach.</p>
+      </section>
+      <section id="sql" class="skills-content">
+        <p data-i18n="sql_">Wiedzę z zakresu SQL zdobyłem głównie w technikum, gdzie uczestniczyłem w zajęciach dotyczących baz danych. Poznałem podstawowe operacje na bazach danych, takie jak tworzenie zapytań, manipulowanie danymi i zarządzanie bazami.</p>
+        <p data-i18n="projects_list">Projekty:</p>
+        <ul>
+          <li data-i18n="typing_app">Aplikacja do nauki szybkiego pisania na klawiaturze</li>
+        </ul>
+        <span class="note" data-i18n="note3"><i>Zapraszam do sekcji "Projekty"</i></span>  
+      </section>
+      <section id="matlab" class="skills-content">
+        <p data-i18n="matlab_">Wiedzę z zakresu MATLAB zdobyłem głównie podczas zajęć na studiach, szczególnie w kontekście przetwarzania sygnałów. Używałem MATLAB do analizy danych, tworzenia algorytmów oraz wizualizacji wyników.</p>
+      </section>
+      <section id="verilog" class="skills-content">
+        <p data-i18n="verilog_">Wiedzę z zakresu Verilog zdobyłem na studiach podczas zajęć związanych z FPGA, gdzie nauczyłem się projektowania układów cyfrowych i implementacji rozwiązań sprzętowych.</p>
+      </section>
+      <section id="git" class="skills-content">
+        <p data-i18n="git_">Wiedzę z zakresu Gita zdobyłem na studiach, głównie podczas pracy nad projektami, takimi jak "Aplikacja do nauki szybkiego pisania na klawiaturze", gdzie wykorzystywałem go do zarządzania wersjami kodu i współpracy w zespole.</p>
+      </section>
+      <section id="altium_kicad" class="skills-content">
+        <p data-i18n="altium_kicad_">Wiedzę z zakresu Altium i KiCad zdobyłem na studiach, gdzie wykorzystywałem je do projektowania układów elektronicznych i tworzenia schematów oraz płytek PCB.</p>
+        <p data-i18n="projects_list">Projekty:</p>
+        <ul>
+          <li data-i18n="multiplier_circuit">Układ mnożący</li>
+          <li data-i18n="clap_control_lighting">Sterowanie oświetleniem - wykrywanie klaśnięcia</li><i class="note">In progress...</i>
+        </ul>
+        <span class="note" data-i18n="note3"><i>Zapraszam do sekcji "Projekty"</i></span>  
+      </section>
+      <section id="cadence" class="skills-content">
+        <p data-i18n="cadence_">Wiedzę z zakresu Cadence zdobyłem na studiach, gdzie używałem tego oprogramowania do tworzenia projektów układów elektronicznych oraz analiz.</p>
+      </section>
+      <section id="ltspice" class="skills-content">
+        <p data-i18n="ltspice_">Wiedzę z zakresu LTSpice zdobyłem na studiach, gdzie wykorzystywałem to narzędzie do symulacji obwodów elektronicznych.</p>
+      </section>
+      <section id="embedded" class="skills-content">
+        <p data-i18n="embedded_">Wiedzę z zakresu systemów wbudowanych zdobyłem na studiach, realizując projekty związane z mikrokontrolerami oraz uczestnicząc w zajęciach praktycznych.</p>
+        <p data-i18n="projects_list">Projekty:</p>
+        <ul>
+          <li data-i18n="alarm_project">Alarm</li>
+          <li data-i18n="clap_control_lighting">Sterowanie oświetleniem - wykrywanie klaśnięcia</li><i class="note">In progress...</i>
+        </ul>
+        <span class="note" data-i18n="note3"><i>Zapraszam do sekcji "Projekty"</i></span>  
+      </section>
+    </section>
+
+    <section id="projects" class="content">
+      <h2 data-i18n="projects">Projekty</h2>
+      <div class="projects">
+        <span class="note" data-i18n="note4" >Kliknij konkretny projekt aby zobaczyć go na GitHubie</span>
+        <div class="project" onclick="window.open('https://github.com/Lukasz-Sajdak/Alarm', '_blank');">
+          <h3 data-i18n="alarm_project">Alarm</h3>
+          <p data-i18n="alarm_project_">Projekt alarmu na mikrokontrolerze z wykorzystaniem czujnika ruchu PIR oraz akcelerometru do wykrywania wstrząsów.</p>
+          <div class="tech-stack" style="pointer-events: none;">
+            <span>C</span>
+            <span>FRDM-KL05Z</span>
+          </div>
+        </div>
+        <div class="project" onclick="window.open('https://github.com/Lukasz-Sajdak/NoCrashCar', '_blank');">
+          <h3 data-i18n="obstacle_avoiding_vehicle">Pojazd omijający przszkody</h3>
+          <p data-i18n="obstacle_avoiding_vehicle_">ten jest dla testu</p>
+          <div class="tech-stack" style="pointer-events: none;">
+            <span>C++</span>
+            <span>Arduino</span>
+          </div>
+        </div>
+        <div class="project" onclick="window.open('https://github.com/Lukasz-Sajdak/MultiplierCircut', '_blank');">
+          <h3 data-i18n="multiplier_circuit">Układ mnożący</h3>
+          <p data-i18n="multiplier_circuit_">Projekt układu mnożącego, który realizuje mnożenie dwóch sygnałów analogowych. Obejmował zaprojektowanie schematu, stworzenie PCB, oraz zlutowanie układu.</p>
+          <div class="tech-stack" style="pointer-events: none;">
+            <span>KiCad</span>
+            <span>LTSpice</span>
+          </div>
+        </div>
+        <div class="project" onclick="window.open('https://github.com/Lukasz-Sajdak/PricePredict', '_blank');">
+          <h3 data-i18n="ML_pricing">Algorytm do przewidywania ceny mieszkania</h3>
+          <p data-i18n="ML_pricing_">Algorytm AI do przewidywania cen mieszkań w Bangalore, stworzony na podstawie poradnika z YouTube. Kanał: Codebasics</p>
+          <div class="tech-stack" style="pointer-events: none;">
+            <span>Python</span>
+            <span>ML</span>
+            <span>Flask Server</span>
+          </div>
+        </div>
+        <div class="project" onclick="window.open('https://github.com/Lukasz-Sajdak/TypingTrainer', '_blank');">
+          <h3 data-i18n="typing_app">Typing Trainer</h3>
+          <p data-i18n="typing_app_">Aplikacja do nauki szybkiego pisania na kalwiaturze, która łączy trening z czytaniem książek, dokumentacji i innych materiałów PDF.</p>
+          <div class="tech-stack" style="pointer-events: none;">
+            <span>Python</span>
+            <span>Git</span>
+            <span>SQLite</span>
+          </div>
+        </div>
+        <div class="project" onclick="window.open('https://github.com/Lukasz-Sajdak/TicTacToe', '_blank');">
+          <h3 data-i18n="tictactoe">Kółko i krzyżyk</h3>
+          <p data-i18n="tictactoe_">Prosta gra Kółko i Krzyżyk dla dwóch graczy.</p>
+          <div class="tech-stack" style="pointer-events: none;">
+            <span>Python</span>
+          </div>
+        </div>
+        <div class="project" onclick="window.open('https://github.com/Lukasz-Sajdak/YellowCards', '_blank');">
+          <h3 data-i18n="yellow_cards_app">Aplikacja Yellow Cards</h3>
+          <p data-i18n="yellow_cards_app_">Aplikacja do zarządzania codziennymi zadaniami, umożliwiająca tworzenie listy zadań, oznaczanie ich jako wykonane oraz śledzenie postępu.</p>
+          <div class="tech-stack" style="pointer-events: none;">
+            <span>C++</span>
+          </div>
+        </div>
+        <div class="project" onclick="window.open('https://github.com/Lukasz-Sajdak/ToDoList', '_blank');">
+          <h3 data-i18n="todo_list_app">Aplikacja TO-DO List</h3>
+          <p data-i18n="todo_list_app_">Aplikacja do planowania dnia, umożliwiająca tworzenie i zarządzanie zadaniami na każdy dzień, z możliwością oznaczania zrealizowanych zadań.</p>
+          <div class="tech-stack" style="pointer-events: none;">
+            <span>C++</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="content">
+      <h2 data-i18n="contact">Kontakt</h2>
+      <p data-i18n="contact_">Możesz się ze mną skontaktować przez:</p>
+      <div class="socials">
+        <button id="in" onclick="displayInfo('linkedin')" class="contact-button"></button>
+        <button id="git_logo" onclick="displayInfo('github')" class="contact-button"></button>
+        <button id="email" onclick="displayInfo('mail')" class="contact-button"></button>
+      </div>
+      <section id="github" class="skills-content">
+        <p data-i18n="thanks1">Dziękuję za wizytę na moim GitHubie</p>
+        <span class="note"><a style="color: var(--link); text-decoration: none;" target="_blank"  href="https://github.com/Lukasz-Sajdak">github.com/Lukasz-Sajdak</a></span>
+      </section>
+      <section id="linkedin" class="skills-content">
+        <p data-i18n="thanks2">Dziękuję za wizytę na moim profilu LinkedIn</p>
+        <span class="note"><a style="color: var(--link); text-decoration: none;" target="_blank"  href="https://www.linkedin.com/in/lukaszsajdak/">linkedin.com/in/lukaszsajdak/</a></span>
+      </section>
+      <section id="mail" class="skills-content">
+        <p>sajdak1702@gmail.com</p>
+        <span class="note" data-i18n="note5" >Czekam na wiadomość</span>
+      </section>
+    </section>
+  </main>
+</body>
+<footer>
+  <p data-i18n="footer">Strona jest systematycznie aktualizowana i rozwijana. Dziękuję za odwiedziny!</p>
+</footer>
+<a data-i18n="code" href="https://github.com/Lukasz-Sajdak/PortfolioWebsite" target="_blank" class="code">Kod Źródłowy</a>
+</html>

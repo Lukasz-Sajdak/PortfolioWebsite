@@ -1,0 +1,119 @@
+{
+    "description": "Strona, na której się znalazłeś, prezentuje moje projekty, umiejętności i pasję do technologii. Zachęcam do odkrywania!",
+    
+    "a1": "O mnie",
+    "a2": "Projekty",
+    "a3": "Kontakt",
+    
+    "note1": "Kliknij konkretną Umiejętność aby dowiedzieć się więcej",
+    "note2": "Kliknij konkretną Technologie aby dowiedzieć się więcej",
+    "note3": "Zapraszam do sekcji \"Projekty\"",
+    "note4": "Kliknij konkretny projekt aby zobaczyć go na GitHubie",
+    "note5": "Czekam na wiadomość",
+
+    "thanks1": "Dziękuję za wizytę na moim GitHubie",
+    "thanks2": "Dziękuję za wizytę na profilu LinkedIn",
+    
+
+    "code": "Kod Źródłowy",
+
+    "about": "O mnie",
+    "bio": "Jestem ambitnym studentem Elektroniki, poszukującym okazji do zdobycia doświadczenia zawodowego. Moje zainteresowania skupiają się wokół obszarów takich jak AI, najnowsze technologie oraz programowanie. Aktualnie rozszerzam swoją wiedzę z zakresu inżynierii AI",
+
+    "projects": "Projekty",
+    "ML_pricing": "Algorytm do przewidywania ceny mieszkania",
+    "ML_pricing_": "Algorytm uczenia maszynowego do przewidywania cen mieszkań w Bangalore, stworzony na podstawie poradnika z YouTube. Kanał: Codebasics",
+    "typing_app": "Typing Trainer",
+    "typing_app_": "Aplikacja do nauki szybkiego pisania na kalwiaturze, która łączy trening z czytaniem książek, dokumentacji i innych materiałów PDF.",
+    "tictactoe": "Kółko i krzyżyk",
+    "tictactoe_": "Prosta gra Kółko i Krzyżyk dla dwóch graczy.",
+    "alarm_project": "Alarm",
+    "alarm_project_": "Projekt alarmu na mikrokontrolerze z wykorzystaniem czujnika ruchu PIR oraz akcelerometru do wykrywania wstrząsów.",
+    "obstacle_avoiding_vehicle": "Pojazd omijający przeszkody",
+    "obstacle_avoiding_vehicle_": "Pojazd omijający przeszkody sterowany mikrokontrolerem, wykorzystujący czujnik ultradźwiękowy do wykrywania przeszkód.",
+    "yellow_cards_app": "Aplikacja Yellow Cards",
+    "yellow_cards_app_": "Aplikacja do zarządzania codziennymi zadaniami, umożliwiająca tworzenie listy zadań, oznaczanie ich jako wykonane oraz śledzenie postępu.",
+    "todo_list_app": "Aplikacja TO-DO List",
+    "todo_list_app_": "Aplikacja do planowania dnia, umożliwiająca tworzenie i zarządzanie zadaniami na każdy dzień, z możliwością oznaczania zrealizowanych zadań.",
+    "multiplier_circuit": "Układ mnożący",
+    "multiplier_circuit_": "Projekt układu mnożącego, który realizuje mnożenie dwóch sygnałów analogowych. Obejmował zaprojektowanie schematu, stworzenie PCB, oraz zlutowanie układu.",
+    "clap_control_lighting": "Sterowanie oświetleniem - wykrywanie klaśnięcia",
+    "clap_control_lighting_": "Sterowanie oświetleniem - wykrywanie klaśnięcia",
+    "seegit": "Zobacz na GitHubie",
+
+    "contact": "Kontakt",
+    "contact_": "Możesz się ze mną skontaktować przez:",
+    
+    "footer": "Strona jest systematycznie aktualizowana i rozwijana. Dziękuję za odwiedziny!",
+    
+    "skills": "Umiejętności",
+
+    "creativity": "Kreatywność i pomysłowość",
+    "creativity_": "Potrafię patrzeć na problemy z różnych perspektyw, co pozwala mi wymyślać niekonwencjonalne rozwiązania. Moje pomysły często wykraczają poza utarte schematy, co pomaga mi w tworzeniu unikalnych koncepcji.",
+    
+    "organization": "Organizacja pracy",
+    "organization_": "Planowanie dnia i wyznaczanie priorytetów to dla mnie klucz do efektywności. Określanie priorytetów pomaga mi lepiej organizować czas, co pozwala pracować bardziej precyzyjnie i skutecznie, osiągając założone cele.",
+    
+    "teamwork": "Umiejętność pracy w zespole",
+    "teamwork_": "Podczas pracy nad projektami zespołowymi, nauczyłem się efektywnie komunikować i dzielić obowiązki. Dobrze czuję się w roli osoby, która potrafi słuchać, ale też sprawdzam się jako lider zespołu.",
+    
+    "patience": "Cierpliwość i Opanowanie",
+    "patience_": "Cierpliwość przejawia się u mnie długotrwałym dążeniem do celu, nawet gdy napotykam na trudności. Opanowanie natomiast pozwala mi zachować spokój w stresujących sytuacjach, podejmować racjonalne decyzje i efektywnie rozwiązywać problemy.",
+    
+    "learning": "Umiejętność szybkiego uczenia się",
+    "learning_": "Planowanie nauki i naturalna ciekawość do nowych rzeczy pozwalają mi szybko przyswajać nieznane zagadnienia. Stawiam na praktykę, ponieważ uważam, że najlepiej uczę się przez bezpośrednie zastosowanie zdobytej wiedzy w rzeczywistych projektach.",
+    
+    "problem-solving": "Rozwiązywanie problemów",
+    "problem-solving_": "Podchodzę do problemów z analitycznym i kreatywnym podejściem, szukając najskuteczniejszych rozwiązań. Analizuję sytuację, testuję różne podejścia i dążę do znalezienia optymalnych rozwiązań, które najlepiej odpowiadają na konkretne wyzwania.",
+    
+    "growth": "Chęć ciągłego rozwoju",
+    "growth_": "Jestem zawsze gotów do nauki i rozwoju, nieustannie poszukując nowych możliwości, aby poszerzać swoje umiejętności. Dzięki tej postawie jestem w stanie szybko adaptować się do nowych wyzwań, nie boję się wychodzić poza swoją strefę komfortu, co pozwala mi na ciągłe doskonalenie i osiąganie lepszych wyników.",
+    
+    "analytical": "Zdolności analityczne",
+    "analytical_": "Potrafię skutecznie analizować dane i wyciągać z nich istotne wnioski, co pomaga mi w podejmowaniu trafnych decyzji. Dzięki tej umiejętności jestem w stanie dostrzegać wzorce i zależności, które umożliwiają mi skuteczne rozwiązywanie problemów oraz usprawnianie działań w złożonych projektach.",
+    
+    "driving": "Prawo jazdy",
+    "driving_": "Posiadam prawo jazdy kat. B, co daje mi mobilność i niezależność w codziennym życiu oraz umożliwia dojazdy do pracy, spotkań biznesowych i projektów terenowych.",
+    
+    "english": "Język angielski: B2",
+    "english_": "Posługuję się językiem angielskim na poziomie B2, co pozwala mi swobodnie czytać dokumentację techniczną, uczestniczyć w międzynarodowych kursach online i komunikować się w środowisku pracy.",
+    
+    "polish": "Język polski: ojczysty",
+    "polish_": "Urodziłem i wychowałem się w Polsce, język polski jest dla mnie językiem ojczystym.",
+    
+    "presentations": "Prowadzenie prezentacji",
+    "presentations_": "Podczas studiów prowadziłem prezentacje projektów, co pozwoliło mi rozwinąć umiejętności komunikowania skomplikowanych zagadnień technicznych. Nauczyłem się efektywnie przygotowywać i przedstawiać prezentacje, a także odpowiadać na pytania słuchaczy.",
+    
+    "computer-science": "Fundamenty Informatyki",
+    "computer-science_": "Jako technik informatyk nauczyłem się podstaw programowania, zarządzania systemami operacyjnymi, konfiguracji sprzętu komputerowego oraz administrowania sieciami. Zdobyłem także umiejętności z zakresu zarządzania bazami danych, pracy z systemami Linux oraz tworzenia dokumentacji technicznej.",
+
+    "networking": "Sieci komputerowe",
+    "embedded": "Systemy Wbudowane",
+
+    "techstack": "Technologie",
+
+    "python_": "Wiedzę z Pythona zdobyłem głównie podczas studiów, uczestnicząc w zajęciach z programowania oraz analizowania danych.",
+
+    "projects_list": "Projekty:",
+
+    "web_": "Wiedzę z zakresu Web Developmentu zdobyłem głównie w technikum, gdzie uczyłem się podstaw tworzenia stron internetowych. Umiejętności te rozwijałem samodzielnie, a ich praktyczną prezentacją jest niniejsza strona internetowa.",
+    "linux_": "Wiedzę z zakresu systemu Linux zdobywałem zarówno w technikum, m.in. podczas zajęć z konfiguracji serwerów (Linux Server), jak i na studiach, gdzie pracowałem w środowiskach opartych na Linuksie.",
+    "windows_": "Systemu Windows używam na co dzień jako głównego środowiska pracy. Dodatkowo, w technikum zdobywałem doświadczenie z jego wersją serwerową, ucząc się konfiguracji i zarządzania usługami Windows Server.",
+    "ai_": "Wiedzę z zakresu AI zdobywam samodzielnie, głównie korzystając z materiałów dostępnych w internecie, uczestrniczyłem również w kilku warsztatach.",
+    "courses_workshops": "Kursy i warsztaty:",
+    "basic_ai": "Podstawy sztucznej inteligencji",
+    "intro_to_ai_ml": "Wprowadzenie do AI i ML",
+    "interpretability_nn": "Interpretowalność głębokich sieci neuronowych",
+    "networking_": "Sieci komputerowe poznałem w technikum i na studiach, ucząc się m.in. konfiguracji sieci, adresacji IP i działania protokołów komunikacyjnych.",
+    "c_": "Wiedzę z zakresu języka C zdobyłem głównie podczas studiów, gdzie uczestniczyłem w zajęciach związanych z programowaniem i algorytmami.",
+    "cpp_": "Wiedzę z zakresu języka C++ zdobyłem głównie podczas studiów, gdzie uczestniczyłem w zajęciach związanych z programowaniem i algorytmami.",
+    "csharp_": "Wiedzę z zakresu C# zdobyłem głównie podczas zajęć z programowania obiektowego (OOP) na studiach.",
+    "sql_": "Wiedzę z zakresu SQL zdobyłem głównie w technikum, gdzie uczestniczyłem w zajęciach dotyczących baz danych. Poznałem podstawowe operacje na bazach danych, takie jak tworzenie zapytań, manipulowanie danymi i zarządzanie bazami.",
+    "matlab_": "Wiedzę z zakresu MATLAB zdobyłem głównie podczas zajęć na studiach, szczególnie w kontekście przetwarzania sygnałów. Używałem MATLAB do analizy danych, tworzenia algorytmów oraz wizualizacji wyników.",
+    "verilog_": "Wiedzę z zakresu Verilog zdobyłem na studiach podczas zajęć związanych z FPGA, gdzie nauczyłem się projektowania układów cyfrowych i implementacji rozwiązań sprzętowych.",
+    "git_": "Wiedzę z zakresu Gita zdobyłem na studiach, głównie podczas pracy nad projektami, takimi jak \"Aplikacja do nauki szybkiego pisania na klawiaturze\", gdzie wykorzystywałem go do zarządzania wersjami kodu i współpracy w zespole.",
+    "altium_kicad_": "Wiedzę z zakresu Altium i KiCad zdobyłem na studiach, gdzie wykorzystywałem je do projektowania układów elektronicznych i tworzenia schematów oraz płytek PCB.",
+    "cadence_": "Wiedzę z zakresu Cadence zdobyłem na studiach, gdzie używałem tego oprogramowania do tworzenia projektów układów elektronicznych oraz analiz.",
+    "ltspice_": "Wiedzę z zakresu LTSpice zdobyłem na studiach, gdzie wykorzystywałem to narzędzie do symulacji obwodów elektronicznych.",
+    "embedded_": "Wiedzę z zakresu systemów wbudowanych zdobyłem na studiach, realizując projekty związane z mikrokontrolerami oraz uczestnicząc w zajęciach praktycznych."
+}

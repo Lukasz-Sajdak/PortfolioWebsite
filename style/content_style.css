@@ -1,0 +1,186 @@
+.content, .skills-content
+{
+    opacity: 0;
+    transform: translateY(20px);
+    pointer-events: none;
+    position: absolute;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    overflow: hidden;
+    height: 0;
+}
+
+.content.visible , .skills-content.visible
+{
+    max-width: 75%;
+    opacity: 1;
+    height: auto;
+    transform: translateY(0);
+    pointer-events: auto;
+    padding: 1rem;
+    position: relative;
+}
+.content.visible
+{
+    padding-bottom: 5rem;
+}
+.skills-content.visible
+{
+    max-width: 100%;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    border: 2px solid var(--link);
+}
+main 
+{
+    display: flex;
+    justify-content: center;
+}
+
+h2 
+{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.projects 
+{
+    display: grid;
+    gap: 1.5rem;
+}
+
+.project 
+{
+    border: 1px solid var(--border);
+    border-radius: 0.75rem;
+    padding: 1rem;
+    transition: 0.3s;
+}
+
+.project:hover
+{
+    box-shadow: 0 0 1rem;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.project h3 
+{
+    margin-top: 0;
+}
+
+.tech-stack , .skill-stack
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.tech-stack span, .skill-stack span
+{
+    background-color: var(--header-bg);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--border);
+    transition: 0.3s;
+}
+.tech-stack span:hover, .skill-stack span:hover
+{
+    box-shadow: 0 0 0.5rem;
+    transition: 0.3s;
+}
+
+footer 
+{
+    text-align: center;
+    font-size: 0.875rem;
+    color: var(--footer-text);
+    background-color: var(--header-bg);
+    border-top: 1px solid var(--border);
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+}
+.note
+{
+    font-style: italic !important;
+    font-size: 0.8rem;
+    color: var(--link);
+}
+.socials
+{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.contact-button
+{
+    padding: 0.1rem;
+    background-color: var(--bg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 0.5rem;
+    height: 5rem;
+    width: 5rem;
+    border: 2px solid var(--link);
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+.contact-button:hover 
+{
+    border: 2px solid var(--theme);
+    background-size: 100%;
+}
+#contact
+{
+    text-align: center;
+}
+#in
+{
+    background-image: url('../images/in.png');
+    background-size: 75%;
+}
+#in:hover
+{
+    background-size: 95%;
+}
+#git_logo
+{
+    background-image: url('../images/git.png');
+    background-size: 75%;
+}
+#git_logo:hover
+{
+    background-size: 95%;
+}
+#email
+{
+    background-image: url('../images/email.png');
+    background-size: 85%;
+}
+#email:hover
+{
+    background-size: 105%;
+}
+.code
+{
+    padding: 0.75rem 1.5rem;
+    background-color: var(--header-bg);
+    color: var(--link);
+    border-radius: 0.5rem;
+    border: 2px solid var(--link);
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.5s;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
+
+.code:hover 
+{
+    background-color: var(--link);
+    color: #fff;
+}

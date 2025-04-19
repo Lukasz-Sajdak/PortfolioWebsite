@@ -1,0 +1,118 @@
+{
+  "description": "The page you're on showcases my projects, skills, and passion for technology. Feel free to explore!",
+  
+  "a1": "About Me",
+  "a2": "Projects",
+  "a3": "Contact",
+  
+  "note1": "Click on a specific Skill to learn more",
+  "note2": "Click on a specific Technology to learn more",
+  "note3": "Check out the \"Projects\" section",
+  "note4": "Click on a specific project to see it on GitHub",
+  "note5": "I look forward to your message",
+
+  "thanks1": "Thank you for visiting my GitHub",
+  "thanks2": "Thank you for visiting my LinkedIn profile",
+
+  "code": "Source Code",
+
+  "about": "About Me",
+  "bio": "I am an ambitious Electronics student looking for opportunities to gain professional experience. My interests focus on areas such as AI, cutting-edge technologies, and programming. Currently, I am expanding my knowledge in AI engineering.",
+ 
+  "projects": "Projects",
+  "ML_pricing": "Algorithm for Apartment Price Prediction",
+  "ML_pricing_": "Machine learning algorithm for predicting apartment prices in Bangalore, created based on a YouTube tutorial. Channel: Codebasics",
+  "typing_app": "Typing Trainer",
+  "typing_app_": "A typing training app that combines typing practice with reading books, documentation, and other PDF materials.",
+  "tictactoe": "Tic Tac Toe",
+  "tictactoe_": "A simple two-player Tic Tac Toe game.",
+  "alarm_project": "Alarm",
+  "alarm_project_": "An alarm project on a microcontroller using a PIR motion sensor and an accelerometer for detecting shocks.",
+  "obstacle_avoiding_vehicle": "Obstacle Avoiding Vehicle",
+  "obstacle_avoiding_vehicle_": "An obstacle-avoiding vehicle controlled by a microcontroller, utilizing an ultrasonic sensor to detect obstacles.",
+  "yellow_cards_app": "Yellow Cards App",
+  "yellow_cards_app_": "An app for managing daily tasks, allowing you to create a task list, mark tasks as completed and track progress.",
+  "todo_list_app": "TO-DO List App",
+  "todo_list_app_": "An app for planning your day, allowing you to create and manage daily tasks with the option to mark completed ones.",
+  "multiplier_circuit": "Multiplier Circuit",
+  "multiplier_circuit_": "A multiplier circuit project that performs the multiplication of two analog signals. It involved schematic design, PCB creation, and circuit soldering.",
+  "clap_control_lighting": "Clap Control Lighting",
+  "clap_control_lighting_": "Clap control lighting system.",
+  "seegit": "See on GitHub",
+  
+  "contact": "Contact",
+  "contact_": "You can contact me via:",
+  
+  "footer": "The page is regularly updated and developed. Thank you for visiting!",
+  
+  "skills": "Skills",
+  
+  "creativity": "Creativity and Ingenuity",
+  "creativity_": "I can approach problems from different perspectives, allowing me to come up with unconventional solutions. My ideas often go beyond established patterns, helping me create unique concepts.",
+  
+  "organization": "Work Organization",
+  "organization_": "Planning my day and setting priorities is key to my efficiency. Setting priorities helps me organize time better, enabling me to work more precisely and effectively towards my goals.",
+  
+  "teamwork": "Teamwork",
+  "teamwork_": "While working on team projects, I have learned to communicate effectively and share responsibilities. I feel comfortable as someone who can listen, but I also thrive in leadership roles.",
+  
+  "patience": "Patience and Composure",
+  "patience_": "Patience is demonstrated in my long-term pursuit of goals, even when facing difficulties. Composure allows me to stay calm in stressful situations, make rational decisions, and solve problems efficiently.",
+  
+  "learning": "Ability to Learn Quickly",
+  "learning_": "Planning my learning and a natural curiosity for new things allow me to quickly grasp unfamiliar topics. I focus on practice, as I believe the best way to learn is by directly applying acquired knowledge in real projects.",
+  
+  "problem-solving": "Problem Solving",
+  "problem-solving_": "I approach problems with both analytical and creative thinking, looking for the most effective solutions. I analyze situations, test different approaches, and strive to find optimal solutions that best address specific challenges.",
+  
+  "growth": "Desire for Continuous Growth",
+  "growth_": "I am always ready to learn and grow, constantly seeking new opportunities to expand my skills. This mindset allows me to quickly adapt to new challenges and push myself beyond my comfort zone, leading to continuous improvement and better results.",
+  
+  "analytical": "Analytical Skills",
+  "analytical_": "I can effectively analyze data and draw relevant conclusions, which helps me make accurate decisions. This skill allows me to recognize patterns and relationships that enable me to solve problems and improve processes in complex projects.",
+  
+  "driving": "Driving License",
+  "driving_": "I hold a Category B driving license, which provides me with mobility and independence in everyday life, as well as the ability to commute to work, business meetings, and field projects.",
+  
+  "english": "English: B2",
+  "english_": "I am proficient in English at the B2 level, allowing me to read technical documentation, participate in international online courses, and communicate in the workplace.",
+  
+  "polish": "Polish: Native",
+  "polish_": "I was born and raised in Poland, and Polish is my native language.",
+  
+  "presentations": "Presentation Skills",
+  "presentations_": "During my studies, I conducted presentations of projects, which helped me develop skills in communicating complex technical topics. I learned how to effectively prepare and deliver presentations, as well as respond to audience questions.",
+  
+  "computer-science": "Computer Science Fundamentals",
+  "computer-science_": "As an IT technician, I learned the basics of programming, operating systems management, hardware configuration, and network administration. I also gained skills in database management, working with Linux systems, and creating technical documentation.",
+  
+  "networking": "Computer networking",
+  "embedded": "Embedded Systems",
+  
+  "techstack": "Technologies",
+  
+  "python_": "I acquired knowledge of Python mainly during my studies, participating in programming and data analysis courses.",
+  
+  "projects_list": "Projects:",
+  
+  "web_": "I gained knowledge in Web Development mainly during technical school, where I learned the basics of creating websites. I further developed these skills independently, and the practical demonstration of them is this website.",
+  "linux_": "I gained knowledge in Linux both in technical school, especially during server configuration lessons (Linux Server), and in university, where I worked in Linux-based environments.",
+  "windows_": "I use Windows as my main working environment. Additionally, in technical school, I gained experience with its server version, learning configuration and management of Windows Server services.",
+  "ai_": "I am acquiring AI knowledge on my own, mainly using materials available online, and I also participated in a few workshops.",
+  "courses_workshops": "Courses and Workshops:",
+  "basic_ai": "Basics of Artificial Intelligence",
+  "intro_to_ai_ml": "Introduction to AI and ML",
+  "interpretability_nn": "Interpretability of Deep Neural Networks",
+  "networking_": "I learned about computer networking in technical school and university, including network configuration, IP addressing, and communication protocol operation.",
+  "c_": "I gained knowledge of C programming mainly during my studies, where I participated in programming and algorithm courses.",
+  "cpp_": "I gained knowledge of C++ mainly during my studies, where I participated in programming and algorithm courses.",
+  "csharp_": "I gained knowledge of C# mainly during object-oriented programming (OOP) courses at university.",
+  "sql_": "I gained knowledge of SQL mainly in technical school, where I participated in database-related courses. I learned basic operations on databases, such as creating queries, manipulating data, and managing databases.",
+  "matlab_": "I gained knowledge of MATLAB mainly during university courses, especially in the context of signal processing. I used MATLAB for data analysis, algorithm creation, and result visualization.",
+  "verilog_": "I gained knowledge of Verilog during my studies, particularly in FPGA-related courses, where I learned digital circuit design and hardware solutions implementation.",
+  "git_": "I gained knowledge of Git during my studies, mainly while working on projects like \"Typing Trainer App\", where I used it for version control and team collaboration.",
+  "altium_kicad_": "I gained knowledge of Altium and KiCad during my studies, where I used them to design electronic circuits and create schematics and PCB layouts.",
+  "cadence_": "I gained knowledge of Cadence during my studies, where I used this software to design electronic circuits and perform analyses.",
+  "ltspice_": "I gained knowledge of LTSpice during my studies, where I used it for simulating electronic circuits.",
+  "embedded_": "I gained knowledge of embedded systems during my studies, working on microcontroller-related projects and participating in practical lessons."
+}

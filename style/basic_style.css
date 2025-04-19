@@ -1,0 +1,36 @@
+:root 
+{
+    --bg: #ffffff;
+    --text: #111827;
+    --header-bg: #f3f3f3;
+    --border: #e5e7eb;
+    --link: #01cb0e;
+    --link-hover: #119b0f;
+    --theme: #000;
+    --footer-text: #9ca3af;
+}
+
+body.dark 
+{
+    --bg: #111827;
+    --text: #f9fafb;
+    --header-bg: #1f2937;
+    --border: #374151;
+    --link: #01cb0e;
+    --link-hover: #119b0f;
+    --theme: #fff;
+    --footer-text: #6b7280;
+}
+    
+body 
+{
+    font-family: 'Tomorrow', sans-serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    transition: background 0.4s ease, color 0.4s ease;
+    text-align: justify; 
+}

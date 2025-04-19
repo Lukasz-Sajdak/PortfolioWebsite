@@ -1,0 +1,167 @@
+header 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--header-bg);
+    text-align: center;
+}
+
+header.small
+{
+    height: fit-content;
+    padding: 0.5rem 0 0.5rem;
+    transition: 0.5s;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0 5rem;
+}
+
+header h1 
+{
+    font-family: 'Poetsen One', sans-serif;
+    font-size: 3rem;
+    animation: fadeIn 2s ease-out;
+}
+
+h1, h2, h3, .skill-stack, .tech-stack
+{
+    text-align: left; 
+}
+
+@keyframes fadeIn 
+{
+  0% 
+  {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  100% 
+  {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+header p 
+{
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    max-width: 600px;
+}
+
+.nav-buttons 
+{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-buttons a 
+{
+    padding: 0.75rem 1.5rem;
+    background-color: var(--link);
+    color: white;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.nav-buttons a:hover 
+{
+    background-color: var(--link-hover);
+    padding: 0.9rem 1.65rem;
+}
+
+.theme-toggle 
+{
+    position: relative;
+    padding: 0.1rem;
+    background-color: var(--header-bg);
+    border-radius: 0.5rem;
+    text-decoration: none;
+    height: 3rem;
+    width: 3rem;
+    border: 2px solid var(--link);
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease;
+    overflow: hidden;
+}
+  
+.theme-toggle:hover 
+{
+    background-color: var(--theme);
+    border-color: var(--theme);
+    color: white;
+}
+  
+.theme-toggle::before 
+{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 75%;
+    transition: transform 0.6s ease;
+    z-index: 0;
+}
+
+.theme-toggle.sun::before 
+{
+    background-image: url("../images/sun.png");
+}
+
+.theme-toggle.moon::before 
+{
+    background-image: url("../images/moon.png");
+}
+  
+.theme-toggle:hover::before 
+{
+    transform: rotate(45deg);
+}
+
+.lan-toggle 
+{
+    padding: 0.1rem;
+    background-image: url("../images/PL.png");
+    background-color: var(--header-bg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 75%;
+    border-radius: 0.5rem;
+    height: 3rem;
+    width: 3rem;
+    border: 2px solid var(--link);
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.lan-toggle:hover 
+{
+    border: 2px solid var(--theme);
+    background-size: 90%;
+}
+
+.lan-toggle.pl
+{
+    background-image: url("../images/PL.png");
+}
+
+.lan-toggle.gb
+{
+    background-image: url("../images/GB.jpg");
+}
+#home
+{
+    display: none;
+    font-family: 'YourFont', 'Segoe UI Symbol', 'Noto Sans Symbols', sans-serif;
+}
