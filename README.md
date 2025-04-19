@@ -20,4 +20,4 @@ This is my personal portfolio website built using HTML, CSS, and JavaScript. It 
 
 ## Running Locally
 
-> **Do not open `index.html` directly in your browser** — features like language switching rely on JavaScript and must be served over a local server.
+> **Do not open `index.htm` directly in your browser** — features like language switching rely on JavaScript and must be served over a local server.
