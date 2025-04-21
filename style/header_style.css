@@ -77,6 +77,7 @@ header p
 {
     background-color: var(--link-hover);
     padding: 0.9rem 1.65rem;
+    cursor: pointer;
 }
 
 .theme-toggle 
@@ -101,7 +102,8 @@ header p
     color: white;
 }
   
-.theme-toggle::before 
+.theme-toggle::before,
+.theme-toggle::after
 {
     content: "";
     position: absolute;
@@ -109,33 +111,59 @@ header p
     background-position: center;
     background-repeat: no-repeat;
     background-size: 75%;
-    transition: transform 0.6s ease;
+    transition: 0.6s;
     z-index: 0;
 }
 
 .theme-toggle.sun::before 
 {
     background-image: url("../images/sun.png");
+    opacity: 1;
+}
+.theme-toggle.sun::after 
+{
+    background-image: url("../images/moon.png");
+    opacity: 0;
+}
+
+.theme-toggle.sun:hover::before 
+{
+    opacity: 0;
+    transform: rotate(360deg);
+}
+.theme-toggle.sun:hover::after 
+{
+    opacity: 1;
+    transform: rotate(360deg);
 }
 
 .theme-toggle.moon::before 
 {
     background-image: url("../images/moon.png");
+    opacity: 1;
 }
-  
-.theme-toggle:hover::before 
+.theme-toggle.moon::after 
 {
-    transform: rotate(45deg);
+    background-image: url("../images/sun.png");
+    opacity: 0;
+}
+
+.theme-toggle.moon:hover::before 
+{
+    opacity: 0;
+    transform: rotate(360deg);
+}
+.theme-toggle.moon:hover::after 
+{
+    opacity: 1;
+    transform: rotate(360deg);
 }
 
 .lan-toggle 
 {
+    position: relative;
     padding: 0.1rem;
-    background-image: url("../images/PL.png");
     background-color: var(--header-bg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 75%;
     border-radius: 0.5rem;
     height: 3rem;
     width: 3rem;
@@ -143,22 +171,71 @@ header p
     cursor: pointer;
     font-weight: 600;
     transition: background 0.3s ease, color 0.3s ease;
+    overflow: hidden;
+}
+
+.lan-toggle::before,
+.lan-toggle::after
+{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 75%;
+    transition: 0.6s;
+    z-index: 0;
+}
+
+.lan-toggle.pl::before 
+{
+    background-image: url("../images/PL.png");
+    opacity: 1;
+}
+.lan-toggle.pl::after 
+{
+    background-image: url("../images/GB.jpg");
+    opacity: 0;
+}
+
+.lan-toggle.pl:hover::before 
+{
+    opacity: 0;
+}
+.lan-toggle.pl:hover::after 
+{
+    opacity: 1;
+}
+
+.lan-toggle.gb::before 
+{
+    background-image: url("../images/GB.jpg");
+    opacity: 1;
+}
+.lan-toggle.gb::after 
+{
+    background-image: url("../images/PL.png");
+    opacity: 0;
+}
+
+.lan-toggle.gb:hover::before 
+{
+    opacity: 0;
+}
+.lan-toggle.gb:hover::after 
+{
+    opacity: 1;
+}
+
+.lan-toggle:hover::before,
+.lan-toggle:hover::after 
+{
+    background-size: 90%;
 }
 
 .lan-toggle:hover 
 {
-    border: 2px solid var(--theme);
-    background-size: 90%;
-}
-
-.lan-toggle.pl
-{
-    background-image: url("../images/PL.png");
-}
-
-.lan-toggle.gb
-{
-    background-image: url("../images/GB.jpg");
+    border-color: var(--theme);
 }
 #home
 {

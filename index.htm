@@ -30,7 +30,7 @@
   </div>
   <header id="main-header" >
     <h1>Łukasz Sajdak</h1>
-    <p data-i18n="description" id="intro">Strona, na której się znalazłeś, prezentuje moje projekty, umiejętności i pasję do technologii. Zachęcam do odkrywania!</p>
+    <p data-i18n="description" id="intro">Strona, na której się znajdujesz, prezentuje moje projekty, umiejętności i pasję do technologii. Zachęcam do odkrywania!</p>
     <noscript>
       <style>
         header
@@ -44,10 +44,10 @@
         }
       </style>
       <div style="background: #ffe0e0; color: #a00; padding: 1rem; text-align: center; font-weight: bold; border-radius: 1rem; margin: 1rem;">
-        <h2>Hej! 👋</h2>
+        <h2 style="text-align: center;">Hej! 👋</h2>
         <p>Wygląda na to, że masz wyłączony JavaScript 😬</p>
         <p>Bez niego strona nie będzie działała poprawnie.<br> Włącz go, aby zobaczyć co przygotowałem!</p>
-        <p>Kod źródłowy możesz podejrzeć na <a href="https://github.com/Lukasz-Sajdak/Portfolio" style="color: #01cb0e; text-decoration: none; font-weight: bold;">GitHubie</a>, nie ma się czego obawiać 😊</p>
+        <p>Kod źródłowy możesz podejrzeć na <a href="https://github.com/Lukasz-Sajdak/PortfolioWebsite" style="color: #01cb0e; text-decoration: none; font-weight: bold;">GitHubie</a>, nie ma się czego obawiać 😊</p>
         <p>Jeśli chcesz, sprawdź mnie także na <a href="https://linkedin.com/in/lukaszsajdak" style="color: #01cb0e; text-decoration: none; font-weight: bold;">LinkedIn</a>!</p>
       </div>
     </noscript>
@@ -66,26 +66,27 @@
   <main>
     <section id="skills" class="content">
       <h2 data-i18n="about">O mnie</h2>
-      <p data-i18n="bio" >Jestem studentem Elektroniki z pasją do AI i systemów wbudowanych. Łączę świat software'u z hardwarem w praktycznych projektach, które rozwiązują rzeczywiste problemy.</p>
+      <p data-i18n="bio" >Jestem ambitnym studentem Elektroniki, poszukującym okazji do zdobycia doświadczenia zawodowego. Moje zainteresowania skupiają się wokół obszarów takich jak AI, najnowsze technologie oraz programowanie. Aktualnie rozszerzam swoją wiedzę z zakresu inżynierii AI</p>
+      <span onclick="window.open('https://sylabusy.agh.edu.pl/pl/1/1/20/1/4/11/64#nav-tab-info', '_blank')" style="cursor: pointer;" class="note" data-i18n="note6" >Kliknij tutaj, jeśli chcesz zapoznać się z sylabusem kierunku Elektronika</span>
       <h2 data-i18n="skills">Umiejętoności</h2>
-      <span class="note" data-i18n="note1" ><i>Kliknij konkretną Umiejętność aby dowiedzieć się więcej</i></span>
+      <span class="note" data-i18n="note1" >Kliknij konkretną Umiejętność aby dowiedzieć się więcej</span>
       <div class="skill-stack">
-        <span data-i18n="creativity" onclick="displaySkill('creativity')">Kreatywność i pomysłowość</span>
         <span data-i18n="organization" onclick="displaySkill('organization')">Organizacja pracy</span>
+        <span data-i18n="creativity" onclick="displaySkill('creativity')">Kreatywność i pomysłowość</span>
+        <span data-i18n="learning" onclick="displaySkill('learning')">Umiejętność szybkiego uczenia się</span>
+        <span data-i18n="growth" onclick="displaySkill('growth')">Chęć ciągłego rozwoju</span>
+        <span data-i18n="problem-solving" onclick="displaySkill('problem-solving')">Rozwiązywanie problemów</span>
         <span data-i18n="teamwork" onclick="displaySkill('teamwork')">Umiejętność pracy w zespole</span>
         <span data-i18n="patience" onclick="displaySkill('patience')">Cierpliwość i Opanowanie</span>
-        <span data-i18n="learning" onclick="displaySkill('learning')">Umiejętność szybkiego uczenia się</span>
-        <span data-i18n="problem-solving" onclick="displaySkill('problem-solving')">Rozwiązywanie problemów</span>
-        <span data-i18n="growth" onclick="displaySkill('growth')">Chęć ciągłego rozwoju</span>
+        <span data-i18n="presentations" onclick="displaySkill('presentations')">Prowadzenie prezentacji</span>
+        <span data-i18n="computer-science" onclick="displaySkill('computer-science')">Fundamenty Informatyki</span>
         <span data-i18n="analytical" onclick="displaySkill('analytical')">Zdolności analityczne</span>
         <span data-i18n="driving" onclick="displaySkill('driving')">Prawo jazdy kat.B</span>
         <span data-i18n="english" onclick="displaySkill('english')">Język angielski: B2</span>
         <span data-i18n="polish" onclick="displaySkill('polish')">Język polski: ojczysty</span>
-        <span data-i18n="presentations" onclick="displaySkill('presentations')">Prowadzenie prezentacji</span>
-        <span data-i18n="computer-science" onclick="displaySkill('computer-science')">Fundamenty Informatyki</span>
       </div>
       <section id="creativity" class="skills-content">
-        <p data-i18n="creativity_">Potrafię patrzeć na problemy z różnych perspektyw, co pozwala mi wymyślać niekonwencjonalne rozwiązania. Moje pomysły często wykraczają poza utarte schematy, co pomaga mi w tworzeniu unikalnych koncepcji.</p>
+        <p data-i18n="creativity_">Potrafię spojrzeć na problemy z różnych perspektyw, co pozwala mi wymyślać niekonwencjonalne rozwiązania. Moje pomysły często wykraczają poza utarte schematy, co pomaga mi w tworzeniu unikalnych koncepcji.</p>
       </section>
       <section id="organization" class="skills-content">
         <p data-i18n="organization_">Planowanie dnia i wyznaczanie priorytetów to dla mnie klucz do efektywności. Określanie priorytetów pomaga mi lepiej organizować czas, co pozwala pracować bardziej precyzyjnie i skutecznie, osiągając założone cele.</p>
@@ -94,7 +95,7 @@
         <p data-i18n="teamwork_">Podczas pracy nad projektami zespołowymi, nauczyłem się efektywnie komunikować i dzielić obowiązki. Dobrze czuję się w roli osoby, która potrafi słuchać, ale też sprawdzam się jako lider zespołu.</p>
       </section>
       <section id="patience" class="skills-content">
-        <p data-i18n="patience_">Cierpliwość przejawia się u mnie długotrwałym dążeniem do celu, nawet gdy napotykam na trudności. Opanowanie natomiast pozwala mi zachować spokój w stresujących sytuacjach, podejmować racjonalne decyzje i efektywnie rozwiązywać problemy.</p>
+        <p data-i18n="patience_">Cierpliwość przejawia się u mnie długotrwałym dążeniem do celu, nawet gdy napotykam trudności. Opanowanie natomiast pozwala mi zachować spokój w stresujących sytuacjach, podejmować racjonalne decyzje i efektywnie rozwiązywać problemy.</p>
       </section>
       <section id="learning" class="skills-content">
         <p data-i18n="learning_">Planowanie nauki i naturalna ciekawość do nowych rzeczy pozwalają mi szybko przyswajać nieznane zagadnienia. Stawiam na praktykę, ponieważ uważam, że najlepiej uczę się przez bezpośrednie zastosowanie zdobytej wiedzy w rzeczywistych projektach.</p>
@@ -128,23 +129,23 @@
       <h2 data-i18n="techstack">Technologie</h2>
       <span class="note" data-i18n="note2" ><i>Kliknij konkretną Technologie aby dowiedzieć się więcej</i></span>
       <div class="tech-stack">
+        <span onclick="displayTech('ai')">AI</span>
         <span onclick="displayTech('python')">Python</span>
+        <span onclick="displayTech('c')">C</span>
+        <span onclick="displayTech('cpp')">C++</span>
+        <span onclick="displayTech('csharp')">C<span style="all: unset; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">#</span></span>
+        <span onclick="displayTech('matlab')">MATLAB</span>
+        <span onclick="displayTech('verilog')">Verilog</span>
+        <span onclick="displayTech('sql')">SQL</span>
+        <span onclick="displayTech('git')">Git</span>
+        <span data-i18n="embedded" onclick="displayTech('embedded')" >Systemy Wbudowane</span>
+        <span onclick="displayTech('altium_kicad')">Altium / KiCad</span>
+        <span onclick="displayTech('cadence')">Cadence</span>
+        <span onclick="displayTech('ltspice')">LTSpice</span>
         <span onclick="displayTech('webdev')">WebDev</span>
         <span onclick="displayTech('windows')">Windows</span>
         <span onclick="displayTech('linux')">Linux</span>
         <span data-i18n="networking" onclick="displayTech('networking')">Sieci komputerowe</span>
-        <span onclick="displayTech('ai')">AI</span>
-        <span onclick="displayTech('c')">C</span>
-        <span onclick="displayTech('cpp')">C++</span>
-        <span onclick="displayTech('csharp')">C<span style="all: unset; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">#</span></span>
-        <span onclick="displayTech('sql')">SQL</span>
-        <span onclick="displayTech('matlab')">MATLAB</span>
-        <span onclick="displayTech('verilog')">Verilog</span>
-        <span onclick="displayTech('git')">Git</span>
-        <span onclick="displayTech('altium_kicad')">Altium / KiCad</span>
-        <span onclick="displayTech('cadence')">Cadence</span>
-        <span onclick="displayTech('ltspice')">LTSpice</span>
-        <span data-i18n="embedded" onclick="displayTech('embedded')" >Systemy Wbudowane</span>
       </div>
       <section id="python" class="skills-content">
         <p data-i18n="python_">Wiedzę z Pythona zdobyłem głównie podczas studiów, uczestnicząc w zajęciach z programowania oraz analizowania danych.</p>
@@ -167,7 +168,7 @@
       </section>
       <section id="ai" class="skills-content">
         <p data-i18n="ai_">Wiedzę z zakresu AI zdobywam samodzielnie, głównie korzystając z materiałów dostępnych w internecie, uczestrniczyłem również w kilku warsztatach.</p>
-        <p data-i18n="courses_workshops">Kursy i warsztaty:</p>
+        <p data-i18n="courses_certifications">Kursy i certyfikaty:</p>
         <ul>
           <li data-i18n="basic_ai">Podstawy sztucznej inteligencji</li>
           <li data-i18n="intro_to_ai_ml">Wprowadzenie do AI i ML</li>
@@ -181,6 +182,11 @@
       </section>
       <section id="networking" class="skills-content">
         <p data-i18n="networking_">Sieci komputerowe poznałem w technikum i na studiach, ucząc się m.in. konfiguracji sieci, adresacji IP i działania protokołów komunikacyjnych.</p>
+        <p data-i18n="courses_certifications">Kursy i certyfikaty:</p>
+        <ul>
+          <li data-i18n="tele_ele" >Elektronika w teleinformatyce - rozwiązywanie zadań</li>
+          <li data-i18n="tele" >Zarządzanie urządzeniami w sieciach teleinformatycznych</li>
+        </ul>
       </section>
       <section id="c" class="skills-content">
         <p data-i18n="c_">Wiedzę z zakresu języka C zdobyłem głównie podczas studiów, gdzie uczestniczyłem w zajęciach związanych z programowaniem i algorytmami.</p>
@@ -213,6 +219,10 @@
       </section>
       <section id="matlab" class="skills-content">
         <p data-i18n="matlab_">Wiedzę z zakresu MATLAB zdobyłem głównie podczas zajęć na studiach, szczególnie w kontekście przetwarzania sygnałów. Używałem MATLAB do analizy danych, tworzenia algorytmów oraz wizualizacji wyników.</p>
+        <p data-i18n="courses_certifications">Kursy i certyfikaty:</p>
+        <ul>
+          <li>Matlab Onramp</li>
+        </ul>
       </section>
       <section id="verilog" class="skills-content">
         <p data-i18n="verilog_">Wiedzę z zakresu Verilog zdobyłem na studiach podczas zajęć związanych z FPGA, gdzie nauczyłem się projektowania układów cyfrowych i implementacji rozwiązań sprzętowych.</p>
@@ -240,6 +250,7 @@
         <p data-i18n="projects_list">Projekty:</p>
         <ul>
           <li data-i18n="alarm_project">Alarm</li>
+          <li data-i18n="obstacle_avoiding_vehicle">Pojazd omijający przeszkody</li>
           <li data-i18n="clap_control_lighting">Sterowanie oświetleniem - wykrywanie klaśnięcia</li><i class="note">In progress...</i>
         </ul>
         <span class="note" data-i18n="note3"><i>Zapraszam do sekcji "Projekty"</i></span>  

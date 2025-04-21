@@ -1,5 +1,5 @@
 {
-    "description": "Strona, na której się znalazłeś, prezentuje moje projekty, umiejętności i pasję do technologii. Zachęcam do odkrywania!",
+    "description": "Strona, na której się znajdujesz, prezentuje moje projekty, umiejętności i pasję do technologii. Zachęcam do odkrywania!",
     
     "a1": "O mnie",
     "a2": "Projekty",
@@ -10,6 +10,7 @@
     "note3": "Zapraszam do sekcji \"Projekty\"",
     "note4": "Kliknij konkretny projekt aby zobaczyć go na GitHubie",
     "note5": "Czekam na wiadomość",
+    "note6": "Kliknij tutaj, jeśli chcesz zapoznać się z sylabusem kierunku Elektronika",
 
     "thanks1": "Dziękuję za wizytę na moim GitHubie",
     "thanks2": "Dziękuję za wizytę na profilu LinkedIn",
@@ -18,7 +19,7 @@
     "code": "Kod Źródłowy",
 
     "about": "O mnie",
-    "bio": "Jestem ambitnym studentem Elektroniki, poszukującym okazji do zdobycia doświadczenia zawodowego. Moje zainteresowania skupiają się wokół obszarów takich jak AI, najnowsze technologie oraz programowanie. Aktualnie rozszerzam swoją wiedzę z zakresu inżynierii AI",
+    "bio": "Jestem studentem III roku Elektroniki, chcącym nieustannie się rozwijać. Moje zainteresowania koncentrują się na sztucznej inteligencji, nowoczesnych technologiach oraz programowaniu, szczególnie w kontekście systemów wbudowanych. Obecnie rozwijam swoją wiedzę z zakresu inżynierii AI",
 
     "projects": "Projekty",
     "ML_pricing": "Algorytm do przewidywania ceny mieszkania",
@@ -41,6 +42,13 @@
     "clap_control_lighting_": "Sterowanie oświetleniem - wykrywanie klaśnięcia",
     "seegit": "Zobacz na GitHubie",
 
+    "courses_certifications": "Kursy i certyfikaty:",
+    "basic_ai": "Podstawy sztucznej inteligencji",
+    "intro_to_ai_ml": "Wprowadzenie do AI i ML",
+    "tele_ele": "Elektronika w teleinformatyce - rozwiązywanie zadań",
+    "tele": "Zarządzanie urządzeniami w sieciach teleinformatycznych",
+    "interpretability_nn": "Interpretowalność głębokich sieci neuronowych",
+
     "contact": "Kontakt",
     "contact_": "Możesz się ze mną skontaktować przez:",
     
@@ -49,16 +57,16 @@
     "skills": "Umiejętności",
 
     "creativity": "Kreatywność i pomysłowość",
-    "creativity_": "Potrafię patrzeć na problemy z różnych perspektyw, co pozwala mi wymyślać niekonwencjonalne rozwiązania. Moje pomysły często wykraczają poza utarte schematy, co pomaga mi w tworzeniu unikalnych koncepcji.",
+    "creativity_": "Potrafię spojrzeć na problemy z różnych perspektyw, co pozwala mi wymyślać niekonwencjonalne rozwiązania. Moje pomysły często wykraczają poza utarte schematy, co pomaga mi w tworzeniu unikalnych koncepcji.",
     
-    "organization": "Organizacja pracy",
-    "organization_": "Planowanie dnia i wyznaczanie priorytetów to dla mnie klucz do efektywności. Określanie priorytetów pomaga mi lepiej organizować czas, co pozwala pracować bardziej precyzyjnie i skutecznie, osiągając założone cele.",
+    "organization": "Zarządzanie czasem",
+    "organization_": "Planowanie dnia i wyznaczanie priorytetów to dla mnie klucz do efektywności. Określanie priorytetów pomaga mi lepiej organizować czas, co pozwala pracować bardziej precyzyjnie i skutecznie, osiągając założone cele. W trakcie studiów łączyłem naukę, pracę nad projektami inżynierskimi i aktywność sportową, co nauczyło mnie dyscypliny i sprawnego planowania czasu.",
     
     "teamwork": "Umiejętność pracy w zespole",
     "teamwork_": "Podczas pracy nad projektami zespołowymi, nauczyłem się efektywnie komunikować i dzielić obowiązki. Dobrze czuję się w roli osoby, która potrafi słuchać, ale też sprawdzam się jako lider zespołu.",
     
     "patience": "Cierpliwość i Opanowanie",
-    "patience_": "Cierpliwość przejawia się u mnie długotrwałym dążeniem do celu, nawet gdy napotykam na trudności. Opanowanie natomiast pozwala mi zachować spokój w stresujących sytuacjach, podejmować racjonalne decyzje i efektywnie rozwiązywać problemy.",
+    "patience_": "Cierpliwość przejawia się u mnie długotrwałym dążeniem do celu, nawet gdy napotykam trudności. Opanowanie natomiast pozwala mi zachować spokój w stresujących sytuacjach, podejmować racjonalne decyzje i efektywnie rozwiązywać problemy.",
     
     "learning": "Umiejętność szybkiego uczenia się",
     "learning_": "Planowanie nauki i naturalna ciekawość do nowych rzeczy pozwalają mi szybko przyswajać nieznane zagadnienia. Stawiam na praktykę, ponieważ uważam, że najlepiej uczę się przez bezpośrednie zastosowanie zdobytej wiedzy w rzeczywistych projektach.",
@@ -99,11 +107,7 @@
     "web_": "Wiedzę z zakresu Web Developmentu zdobyłem głównie w technikum, gdzie uczyłem się podstaw tworzenia stron internetowych. Umiejętności te rozwijałem samodzielnie, a ich praktyczną prezentacją jest niniejsza strona internetowa.",
     "linux_": "Wiedzę z zakresu systemu Linux zdobywałem zarówno w technikum, m.in. podczas zajęć z konfiguracji serwerów (Linux Server), jak i na studiach, gdzie pracowałem w środowiskach opartych na Linuksie.",
     "windows_": "Systemu Windows używam na co dzień jako głównego środowiska pracy. Dodatkowo, w technikum zdobywałem doświadczenie z jego wersją serwerową, ucząc się konfiguracji i zarządzania usługami Windows Server.",
-    "ai_": "Wiedzę z zakresu AI zdobywam samodzielnie, głównie korzystając z materiałów dostępnych w internecie, uczestrniczyłem również w kilku warsztatach.",
-    "courses_workshops": "Kursy i warsztaty:",
-    "basic_ai": "Podstawy sztucznej inteligencji",
-    "intro_to_ai_ml": "Wprowadzenie do AI i ML",
-    "interpretability_nn": "Interpretowalność głębokich sieci neuronowych",
+    "ai_": "Wiedzę z zakresu AI zdobywam samodzielnie, głównie korzystając z materiałów dostępnych w internecie, uczestniczyłem również w kilku warsztatach.",
     "networking_": "Sieci komputerowe poznałem w technikum i na studiach, ucząc się m.in. konfiguracji sieci, adresacji IP i działania protokołów komunikacyjnych.",
     "c_": "Wiedzę z zakresu języka C zdobyłem głównie podczas studiów, gdzie uczestniczyłem w zajęciach związanych z programowaniem i algorytmami.",
     "cpp_": "Wiedzę z zakresu języka C++ zdobyłem głównie podczas studiów, gdzie uczestniczyłem w zajęciach związanych z programowaniem i algorytmami.",

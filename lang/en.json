@@ -10,6 +10,7 @@
   "note3": "Check out the \"Projects\" section",
   "note4": "Click on a specific project to see it on GitHub",
   "note5": "I look forward to your message",
+  "note6": "Click here if you want to view the syllabus for the Electronics program",
 
   "thanks1": "Thank you for visiting my GitHub",
   "thanks2": "Thank you for visiting my LinkedIn profile",
@@ -17,7 +18,7 @@
   "code": "Source Code",
 
   "about": "About Me",
-  "bio": "I am an ambitious Electronics student looking for opportunities to gain professional experience. My interests focus on areas such as AI, cutting-edge technologies, and programming. Currently, I am expanding my knowledge in AI engineering.",
+  "bio": "I am a third-year Electronics student, eager to continuously develop myself. My interests focus on artificial intelligence, modern technologies, and programming, particularly in the context of embedded systems. Currently, I am expanding my knowledge in AI engineering",
  
   "projects": "Projects",
   "ML_pricing": "Algorithm for Apartment Price Prediction",
@@ -40,6 +41,13 @@
   "clap_control_lighting_": "Clap control lighting system.",
   "seegit": "See on GitHub",
   
+  "courses_certifications": "Courses and Certifications:",
+  "basic_ai": "Basics of Artificial Intelligence",
+  "intro_to_ai_ml": "Introduction to AI and ML",
+  "tele_ele": "Electronics in Teleinformatics – Problem Solving",
+  "tele": "Device Management in Telecommunication Networks",
+  "interpretability_nn": "Interpretability of Deep Neural Networks",
+
   "contact": "Contact",
   "contact_": "You can contact me via:",
   
@@ -50,8 +58,8 @@
   "creativity": "Creativity and Ingenuity",
   "creativity_": "I can approach problems from different perspectives, allowing me to come up with unconventional solutions. My ideas often go beyond established patterns, helping me create unique concepts.",
   
-  "organization": "Work Organization",
-  "organization_": "Planning my day and setting priorities is key to my efficiency. Setting priorities helps me organize time better, enabling me to work more precisely and effectively towards my goals.",
+  "organization": "Time management",
+  "organization_": "Daily planning and setting priorities are key to my effectiveness. Defining clear priorities helps me organize my time better, allowing me to work more precisely and efficiently while achieving my goals. During my studies, I successfully combined academic work, engineering projects, and sports activities, which taught me discipline and effective time management.",
   
   "teamwork": "Teamwork",
   "teamwork_": "While working on team projects, I have learned to communicate effectively and share responsibilities. I feel comfortable as someone who can listen, but I also thrive in leadership roles.",
@@ -99,10 +107,6 @@
   "linux_": "I gained knowledge in Linux both in technical school, especially during server configuration lessons (Linux Server), and in university, where I worked in Linux-based environments.",
   "windows_": "I use Windows as my main working environment. Additionally, in technical school, I gained experience with its server version, learning configuration and management of Windows Server services.",
   "ai_": "I am acquiring AI knowledge on my own, mainly using materials available online, and I also participated in a few workshops.",
-  "courses_workshops": "Courses and Workshops:",
-  "basic_ai": "Basics of Artificial Intelligence",
-  "intro_to_ai_ml": "Introduction to AI and ML",
-  "interpretability_nn": "Interpretability of Deep Neural Networks",
   "networking_": "I learned about computer networking in technical school and university, including network configuration, IP addressing, and communication protocol operation.",
   "c_": "I gained knowledge of C programming mainly during my studies, where I participated in programming and algorithm courses.",
   "cpp_": "I gained knowledge of C++ mainly during my studies, where I participated in programming and algorithm courses.",
